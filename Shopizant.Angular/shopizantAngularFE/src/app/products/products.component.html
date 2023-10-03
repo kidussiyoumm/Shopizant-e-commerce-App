@@ -1,0 +1,128 @@
+<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+
+  <img src="assets/Shopizant-images/Logo.jfif" with="50" height="50">
+  <span class="fs-4">Shopizant</span>
+
+
+  <div class="container">
+    <header class="-py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a routerLink="/home-page" class="nav-link ">Home</a></li>
+        <li class="nav-item"><a routerLink="/products" class="nav-link">Products</a></li>
+        <li class="nav-item"><a routerLink="/category" class="nav-link">Categories</a></li>
+        <li class="nav-item"><a routerLink="/aboutpage" class="nav-link">About</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="col-md-7 text-end">
+    <button type="button" class="btn btn-outline-primary me-2"><a routerLink="/cart" href="#" class="nav-link active"><img src="assets/Shopizant-images/ShopcartIcon.jpg" with="50" height="50"></a></button>
+    <button type="button" class="btn btn-outline-primary me-2"><a routerLink="/login" href="#" class="nav-link active">Login</a></button>
+    <button type="button" class="btn btn-primary"><a routerLink="/signup" href="#" class="nav-link active">Sign-up</a></button>
+  </div>
+</div>
+
+
+
+<div style="text-align:center;">
+  <h1>View Products</h1>
+
+  <div class="table-responsive">
+    <table class="table" style="border:5px solid rgba(5,126,240,0.9);" *ngIf="products">
+  
+      <tr style="background-color: rgb(124,126,240,0.9); font-size:12pt">
+
+        <th style="text-align:center"> Product Id</th>
+        <th style="text-align:center"> Product Name</th>
+        <th style="text-align:center"> Price</th>
+        <th style="text-align:center"> Quantity Available</th>
+        <th style="text-align:center"> Category Id</th>
+        <th style="text-align:center"> Add to cart</th>
+      </tr>
+
+      <tr *ngFor="let product of products" style="background-color:navajowhite; font-size:10pt">
+
+
+        <td>{{product.productId}}</td>
+
+        <td>{{product.productName}}</td>
+
+        <td>{{product.price}}</td>
+
+        <td>{{product.quantityAvailable}}</td>
+
+        <td>{{product.catrgoryId}}</td>
+        <td><img title="Add to cart" src="assets/Shopizant-images/ShopcartIcon.jpg" with="70" height="70" (click)="addtoCart(product)"></td>
+        <!--Image data binding-->
+      </tr>
+
+
+
+    </table>
+
+
+
+    <div *ngIf="showMessage" style="">
+
+    </div>
+    <footer class="footer">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2022–2023 Company, Inc. · <a href="#">ShopizantPrivacy</a> · <a href="#">ShopizantTerms</a></p>
+    </footer>
+  </div>
+
+
+
+
+
+
+  <div class="album py-5 bg-light">
+    <div class="card-body">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <td><img src="assets/Shopizant-images/storecredit.jpg" with="190" height="180"></td>
+
+            <div class="card-body">
+              <p class="card-text">Points</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a routerLink="/cart" href="#" class="nav-link">Use Points</a></button>
+
+                </div>
+                <small class="text-muted">Acumulated points</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!--<div *ngIf="showMessage" style="">
+
+        </div>-->
+        <footer class="footer">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <p>© 2022–2023 Company, Inc. · <a href="#">ShopizantPrivacy</a> · <a href="#">ShopizantTerms</a></p>
+        </footer>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

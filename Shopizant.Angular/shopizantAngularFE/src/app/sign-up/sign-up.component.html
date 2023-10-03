@@ -1,0 +1,64 @@
+<div class="container" >
+  <h1>Sign Up Form</h1>
+  
+  <p>Please enter your credentials to login.</p>
+  <form [formGroup]="signupForm" (ngSubmit)="SubmitForm(signupForm)" style="background-color:lightblue;">
+    <div class="form-group">
+      <div class="col-15">
+        <label> Email </label>
+        <input type="text" class="form-control" formControlName="emailId"><!--input from user-->
+      </div>
+    </div>
+
+    <div class="form-group">
+
+      <div class="col- 15 text-align: center">
+        <label> Password </label>
+        <input type="password" class="form-control" formControlName="password">
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label>Gender</label>
+
+      <div>
+        <input type="radio" formControlName="gender" name="gender" value="M" />
+        <label> Male</label>
+        <input type="radio" formControlName="gender" name="gender" value="F" />
+        <label> Female</label>
+        <input type="radio" formControlName="gender" name="gender" value="other" />
+        <label> other</label>
+      </div>
+    </div>
+
+
+    <div class="for-group">
+      <label> Date Of Bith </label>
+      <div class="col-md-15">
+        <input type="date" class="form-control" formControlName="dateOfBirth">
+      </div>
+    </div>
+
+
+    <div class="for-group">
+      <div class="col-15">
+        <label>Address </label>
+        <input type="text" class="form-control" formControlName="address">
+      </div>
+    </div>
+
+    <div>
+      <b>Recieve Email</b>
+      <br>
+      <input type="checkbox" name="subject" id="Yes">
+      <label for="maths">Yes</label>
+      <input type="checkbox" name="subject" id="No">
+      <label for="science">No</label>
+      <input type="checkbox" name="subject" id="DECIDE LATER">
+      <label for="english">Not Now</label>
+    </div>
+    <button class="btn btn-outline-primary me-2" type="submit"><a routerLink="/login" href="#" class="nav-link active">Submit </a></button>
+    <!--<input type="text" class="form-control" />--><!--input from user-->
+  </form>
+</div>

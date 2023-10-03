@@ -1,0 +1,13 @@
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\bin\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.deps.json
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\bin\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.runtimeconfig.json
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\bin\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.runtimeconfig.dev.json
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\bin\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.dll
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\bin\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.pdb
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.csproj.AssemblyReference.cache
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.AssemblyInfoInputs.cache
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.AssemblyInfo.cs
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.csproj.CoreCompileInputs.cache
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.dll
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.pdb
+C:\Users\960152\source\repos\Shopizant\Shopizant.CodeFirst.DAL\obj\Debug\netcoreapp3.1\Shopizant.CodeFirst.DAL.genruntimeconfig.cache

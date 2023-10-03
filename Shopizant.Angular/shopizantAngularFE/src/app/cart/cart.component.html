@@ -1,0 +1,58 @@
+<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+  <img src="assets/Shopizant-images/Logo.jfif" with="50" height="50">
+  <span class="fs-4">Shopizant</span>
+
+
+  <div class="container">
+    <header class="d-flex justify-content-center py-0">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a routerLink="/home-page" href="#" class="nav-link ">Home</a></li>
+        <li class="nav-item"><a routerLink="/products" href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a routerLink="/category" href="#" class="nav-link">Categories</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+
+      <div class="col-md-8 text-end">
+        
+        <button type="button" class="btn btn-outline-primary me-2"><a routerLink="/checkout" href="#" class="nav-link active">Checkout</a></button>
+        <button type="button" class="btn btn-primary"><a routerLink="/login" href="#" class="nav-link active">Sign-out</a></button>
+      </div>
+    </header>
+  </div>
+</div>
+
+<div class="myCart">
+  <h4> You have the following Items in your cart</h4>
+  <br />
+  <div class="table-responsive">
+    <table class="table" style="background: white">
+
+      <tr style="background-color:rgba(220,230,242,1); font-size:12pt">
+
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Qunatity</th>
+        <th>Total Amount</th>
+      </tr>
+
+      <tr *ngFor="let product of cartItem" style="background:white">
+        <td>{{cartItem.productName}}</td>
+        <td>{{cartItem.price}}</td>
+        <td>{{cartItem.quantity}}</td>
+        <td>{{cartItem.Price * cartItem.quantiy}}</td>
+        <td>
+          <button type="button" class="btn btn-outline-primary me-2"><img src="assets/Shopizant-images/delete.jpg" with="50" height="50"></button>
+        </td>
+       
+      </tr>
+    </table>
+  <!--*ngIf="Products && Products.length">-->
+  <!--<div *ngIf="error" style=" ">-->
+  <!--<h4 class=" jumbotron" style="text-align:center;"></h4>-->
+</div>
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.header{
+  position: fixed;
+  text-align: right;
+}
+.container{
+    position: fixed;
+    text-align: center;
+}
+.card-body {
+  
+  text-align: left;
+}
+.footer {
+  position: fixed;
+  text-align: left;
+}
+.btn btn-outline-primary me-2{
+    text-align: left;
+}
